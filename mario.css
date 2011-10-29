@@ -1,0 +1,57 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+#background {
+	width : 100%;
+	height : 100%;
+	position : absolute;
+	top : 0;
+	left : 0;
+	overflow-x : hidden;
+	z-index : -1;
+	background:#3087ad;
+	background: -moz-linear-gradient(-90deg, rgb(32,110,147), rgb(70,170,210));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(32,110,147)), to(rgb(70,170,210)));
+}
+
+#background .level {
+	height : 516px;
+	width : 3392px;
+	position : absolute;
+	bottom : -16px;
+	left : 0;
+	background-image : url(http://www.tcsbank.ru/static/media/mariobackground.png);
+/*	overflow-x : hidden;*/
+}
+
+#background .overlay {
+	width : 3392px;
+	height : 100%;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	background-color : rgba(50,40,20,0.5);
+}
+
+#background .mario-sprite {
+	width : 16px;
+	height : 16px;
+	overflow : hidden;
+	position : absolute;
+	left : -999px;
+}
+
+
+#background .text-1 {
+	position : absolute;
+	left : 1650px;
+	top : -120px;
+}
+
+#background .text-2 {
+	position : absolute;
+	left : 3100px;
+	top : -180px;
+}
